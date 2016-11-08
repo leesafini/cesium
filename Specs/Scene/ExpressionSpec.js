@@ -1630,7 +1630,6 @@ defineSuite([
         expect(shaderExpression).toEqual(expected);
     });
 
-
     it('gets shader expression for sqrt', function() {
         var expression = new Expression('sqrt(1.0)');
         var shaderExpression = expression.getShaderExpression('', {});
